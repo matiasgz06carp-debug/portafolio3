@@ -1,0 +1,24 @@
+body {
+    
+/*esto es para definir fuente, color del fondo,y centrar texto*/
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 50px;
+}
+
+/*lista de navegacion*/
+nav ul {
+    /*diseño y tamaño prederterminado de la barra*/
+    list-style:none;
+    padding:0;
+}
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+a{
+   text-decoration: none; /*para eliminar el marco preterminado de los enlaces*/
+   color: #0066cc; /*para resaltar los botones y dar color*/
+   font-weight: bold;
+}
